@@ -1,0 +1,32 @@
+# KanEval Configuration File
+
+app:
+  title: "KanEval: Kannada LLM Evaluation Framework"
+  description: >
+    Comparative evaluation of multiple Large Language Models (LLMs)
+    for Kannada text summarization using semantic, lexical,
+    structural, and information coverage metrics.
+  layout: "centered"
+
+models:
+  A:
+    label: "Model A"
+    name: "GPT-4"
+  B:
+    label: "Model B"
+    name: "Gemini"
+  C:
+    label: "Model C"
+    name: "DeepSeek"
+
+scoring:
+  weights:
+    semantic_similarity: 0.6
+    lexical_diversity: 0.25
+    avg_sentence_length: 0.15
+
+embedding:
+  model_name: "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+
+export:
+  default_filename: "kaneval_results.csv"
