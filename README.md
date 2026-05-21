@@ -73,11 +73,7 @@ Generates an overall ranking score using weighted evaluation metrics.
 
 ## Installation
 
-Clone the repository:
-
-```bash
-git clone https://github.com/shreyamarali/KanEval-A-Multi-Metric-Evaluation-Framework-for-Kannada-LLM-Summarization.git
-```
+Clone the repository
 
 Move into the project folder:
 
